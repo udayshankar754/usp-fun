@@ -1,0 +1,32 @@
+{
+  "name": "usp-fun",
+  "version": "1.0.0",
+  "description": "usplab is a personal experimentation and utility toolkit developed by Uday Shankar Purbey. Designed as a flexible playground, this package serves as a sandbox for testing features, prototyping modules, and sharing reusable code components for development and learning purposes.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UdayShankarPurbey/usp-fun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UdayShankarPurbey/usp-fun/issues"
+  },
+  "homepage": "https://github.com/UdayShankarPurbey/usp-fun#readme",
+  "dependencies": {
+    "chalk": "^5.6.0",
+    "figlet": "^1.8.2",
+    "gradient-string": "^3.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
